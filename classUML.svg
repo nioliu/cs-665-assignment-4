@@ -1,0 +1,707 @@
+<svg id="mermaidChart286" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     style="max-width: 789.324219px; margin: 0px; color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px;"
+     viewBox="-8 -8 789.32421875 693" role="graphics-document document" aria-roledescription="classDiagram">
+    <style style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+        #mermaidChart286{font-family:sans-serif;font-size:16px;fill:#333;}#mermaidChart286
+        .error-icon{fill:#552222;}#mermaidChart286 .error-text{fill:#552222;stroke:#552222;}#mermaidChart286
+        .edge-thickness-normal{stroke-width:2px;}#mermaidChart286
+        .edge-thickness-thick{stroke-width:3.5px;}#mermaidChart286
+        .edge-pattern-solid{stroke-dasharray:0;}#mermaidChart286
+        .edge-pattern-dashed{stroke-dasharray:3;}#mermaidChart286
+        .edge-pattern-dotted{stroke-dasharray:2;}#mermaidChart286 .marker{fill:#333333;stroke:#333333;}#mermaidChart286
+        .marker.cross{stroke:#333333;}#mermaidChart286 svg{font-family:sans-serif;font-size:16px;}#mermaidChart286
+        g.classGroup text{fill:#9370DB;stroke:none;font-family:sans-serif;font-size:10px;}#mermaidChart286 g.classGroup
+        text .title{font-weight:bolder;}#mermaidChart286 .nodeLabel,#mermaidChart286
+        .edgeLabel{color:#131300;}#mermaidChart286 .edgeLabel .label rect{fill:#ECECFF;}#mermaidChart286 .label
+        text{fill:#131300;}#mermaidChart286 .edgeLabel .label span{background:#ECECFF;}#mermaidChart286
+        .classTitle{font-weight:bolder;}#mermaidChart286 .node rect,#mermaidChart286 .node circle,#mermaidChart286 .node
+        ellipse,#mermaidChart286 .node polygon,#mermaidChart286 .node
+        path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaidChart286
+        .divider{stroke:#9370DB;stroke-width:1;}#mermaidChart286 g.clickable{cursor:pointer;}#mermaidChart286
+        g.classGroup rect{fill:#ECECFF;stroke:#9370DB;}#mermaidChart286 g.classGroup
+        line{stroke:#9370DB;stroke-width:1;}#mermaidChart286 .classLabel
+        .box{stroke:none;stroke-width:0;fill:#ECECFF;opacity:0.5;}#mermaidChart286 .classLabel
+        .label{fill:#9370DB;font-size:10px;}#mermaidChart286
+        .relation{stroke:#333333;stroke-width:1;fill:none;}#mermaidChart286
+        .dashed-line{stroke-dasharray:3;}#mermaidChart286 .dotted-line{stroke-dasharray:1 2;}#mermaidChart286
+        #compositionStart,#mermaidChart286
+        .composition{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaidChart286
+        #compositionEnd,#mermaidChart286
+        .composition{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaidChart286
+        #dependencyStart,#mermaidChart286
+        .dependency{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaidChart286
+        #dependencyStart,#mermaidChart286
+        .dependency{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaidChart286
+        #extensionStart,#mermaidChart286
+        .extension{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaidChart286
+        #extensionEnd,#mermaidChart286
+        .extension{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaidChart286
+        #aggregationStart,#mermaidChart286
+        .aggregation{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaidChart286
+        #aggregationEnd,#mermaidChart286
+        .aggregation{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaidChart286
+        #lollipopStart,#mermaidChart286
+        .lollipop{fill:#ECECFF!important;stroke:#333333!important;stroke-width:1;}#mermaidChart286
+        #lollipopEnd,#mermaidChart286
+        .lollipop{fill:#ECECFF!important;stroke:#333333!important;stroke-width:1;}#mermaidChart286
+        .edgeTerminals{font-size:11px;}#mermaidChart286
+        .classTitleText{text-anchor:middle;font-size:18px;fill:#333;}#mermaidChart286
+        :root{--mermaid-alt-font-family:sans-serif;}
+    </style>
+    <g style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+        <defs style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+            <marker id="mermaidChart286_classDiagram-aggregationStart" class="marker aggregation classDiagram" refX="18"
+                    refY="7" markerWidth="190" markerHeight="240" orient="auto"
+                    style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgba(0, 0, 0, 0); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                <path d="M 18,7 L9,13 L1,7 L9,1 Z"
+                      style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgba(0, 0, 0, 0); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></path>
+            </marker>
+        </defs>
+        <defs style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+            <marker id="mermaidChart286_classDiagram-aggregationEnd" class="marker aggregation classDiagram" refX="1"
+                    refY="7" markerWidth="20" markerHeight="28" orient="auto"
+                    style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgba(0, 0, 0, 0); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                <path d="M 18,7 L9,13 L1,7 L9,1 Z"
+                      style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgba(0, 0, 0, 0); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></path>
+            </marker>
+        </defs>
+        <defs style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+            <marker id="mermaidChart286_classDiagram-extensionStart" class="marker extension classDiagram" refX="18"
+                    refY="7" markerWidth="190" markerHeight="240" orient="auto"
+                    style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgba(0, 0, 0, 0); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                <path d="M 1,7 L18,13 V 1 Z"
+                      style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgba(0, 0, 0, 0); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></path>
+            </marker>
+        </defs>
+        <defs style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+            <marker id="mermaidChart286_classDiagram-extensionEnd" class="marker extension classDiagram" refX="1"
+                    refY="7" markerWidth="20" markerHeight="28" orient="auto"
+                    style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgba(0, 0, 0, 0); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                <path d="M 1,1 V 13 L18,7 Z"
+                      style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgba(0, 0, 0, 0); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></path>
+            </marker>
+        </defs>
+        <defs style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+            <marker id="mermaidChart286_classDiagram-compositionStart" class="marker composition classDiagram" refX="18"
+                    refY="7" markerWidth="190" markerHeight="240" orient="auto"
+                    style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                <path d="M 18,7 L9,13 L1,7 L9,1 Z"
+                      style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></path>
+            </marker>
+        </defs>
+        <defs style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+            <marker id="mermaidChart286_classDiagram-compositionEnd" class="marker composition classDiagram" refX="1"
+                    refY="7" markerWidth="20" markerHeight="28" orient="auto"
+                    style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                <path d="M 18,7 L9,13 L1,7 L9,1 Z"
+                      style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></path>
+            </marker>
+        </defs>
+        <defs style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+            <marker id="mermaidChart286_classDiagram-dependencyStart" class="marker dependency classDiagram" refX="6"
+                    refY="7" markerWidth="190" markerHeight="240" orient="auto"
+                    style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                <path d="M 5,7 L9,13 L1,7 L9,1 Z"
+                      style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></path>
+            </marker>
+        </defs>
+        <defs style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+            <marker id="mermaidChart286_classDiagram-dependencyEnd" class="marker dependency classDiagram" refX="13"
+                    refY="7" markerWidth="20" markerHeight="28" orient="auto"
+                    style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                <path d="M 18,7 L9,13 L14,7 L9,1 Z"
+                      style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></path>
+            </marker>
+        </defs>
+        <defs style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+            <marker id="mermaidChart286_classDiagram-lollipopStart" class="marker lollipop classDiagram" refX="13"
+                    refY="7" markerWidth="190" markerHeight="240" orient="auto"
+                    style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(236, 236, 255); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                <circle stroke="currentColor" fill="transparent" cx="7" cy="7" r="6"
+                        style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgba(0, 0, 0, 0); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></circle>
+            </marker>
+        </defs>
+        <defs style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+            <marker id="mermaidChart286_classDiagram-lollipopEnd" class="marker lollipop classDiagram" refX="1" refY="7"
+                    markerWidth="190" markerHeight="240" orient="auto"
+                    style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(236, 236, 255); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                <circle stroke="currentColor" fill="transparent" cx="7" cy="7" r="6"
+                        style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgba(0, 0, 0, 0); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></circle>
+            </marker>
+        </defs>
+        <g class="root"
+           style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+            <g class="clusters"
+               style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></g>
+            <g class="edgePaths"
+               style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                <path d="M117.879,77.92L100.784,85.933C83.689,93.946,49.499,109.973,32.404,139.57C15.309,169.167,15.309,212.333,15.309,255.5C15.309,298.667,15.309,341.833,17.058,366.701C18.808,391.568,22.307,398.136,24.057,401.421L25.806,404.705"
+                      id="id1" class="  edge-pattern-dashed relation"
+                      style="fill: none; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: 3px; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"
+                      marker-end="url(#mermaidChart286_classDiagram-dependencyEnd)"></path>
+                <path d="M189.545,101L191.49,105.167C193.435,109.333,197.325,117.667,199.27,132.667C201.215,147.667,201.215,169.333,201.215,180.167L201.215,191"
+                      id="id2" class="  edge-pattern-solid relation"
+                      style="fill: none; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: 0px; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"
+                      marker-end="url(#mermaidChart286_classDiagram-compositionEnd)"></path>
+                <path d="M499.852,59.199L431.324,70.332C362.796,81.466,225.74,103.733,157.212,136.45C88.684,169.167,88.684,212.333,88.684,255.5C88.684,298.667,88.684,341.833,88.905,366.586C89.126,391.338,89.569,397.676,89.79,400.845L90.011,404.015"
+                      id="id3" class="  edge-pattern-dashed relation"
+                      style="fill: none; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: 3px; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"
+                      marker-end="url(#mermaidChart286_classDiagram-dependencyEnd)"></path>
+                <path d="M557.695,66.881L580.712,76.734C603.728,86.588,649.76,106.294,672.777,126.98C695.793,147.667,695.793,169.333,695.793,180.167L695.793,191"
+                      id="id4" class="  edge-pattern-dashed relation"
+                      style="fill: none; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: 3px; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"
+                      marker-end="url(#mermaidChart286_classDiagram-compositionEnd)"></path>
+                <path d="M245.612,302L258.82,315.833C272.028,329.667,298.444,357.333,324.364,385.194C350.284,413.054,375.709,441.108,388.421,455.135L401.134,469.162"
+                      id="id5" class="  edge-pattern-solid relation"
+                      style="fill: none; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: 0px; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"
+                      marker-end="url(#mermaidChart286_classDiagram-extensionEnd)"></path>
+                <path d="M644.214,302L628.87,315.833C613.526,329.667,582.837,357.333,560.317,384.763C537.798,412.194,523.447,439.387,516.272,452.984L509.096,466.581"
+                      id="id6" class="  edge-pattern-solid relation"
+                      style="fill: none; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: 0px; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"
+                      marker-end="url(#mermaidChart286_classDiagram-extensionEnd)"></path>
+                <path d="M217.801,75.888L237.311,84.24C256.82,92.592,295.84,109.296,317.027,119.56C338.215,129.824,341.57,133.647,343.248,135.559L344.926,137.471"
+                      id="id7" class="  edge-pattern-solid relation"
+                      style="fill: none; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: 0px; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"
+                      marker-end="url(#mermaidChart286_classDiagram-extensionEnd)"></path>
+                <path d="M550.479,101L552.424,105.167C554.369,109.333,558.259,117.667,558.526,123.745C558.793,129.824,555.438,133.647,553.76,135.559L552.082,137.471"
+                      id="id8" class="  edge-pattern-solid relation"
+                      style="fill: none; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: 0px; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"
+                      marker-end="url(#mermaidChart286_classDiagram-extensionEnd)"></path>
+                <path d="M548.279,360L552.257,364.167C556.235,368.333,564.192,376.667,559.186,394.572C554.18,412.478,536.212,439.957,527.228,453.696L518.243,467.435"
+                      id="id9" class="  edge-pattern-solid relation"
+                      style="fill: none; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: 0px; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"
+                      marker-end="url(#mermaidChart286_classDiagram-compositionEnd)"></path>
+                <path d="M332.59,360L327.968,364.167C323.346,368.333,314.103,376.667,292.962,393.599C271.821,410.531,238.782,436.062,222.262,448.828L205.743,461.593"
+                      id="id10" class="  edge-pattern-solid relation"
+                      style="fill: none; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); stroke: rgb(51, 51, 51); stroke-width: 1px; opacity: 1; stroke-dasharray: 0px; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"
+                      marker-end="url(#mermaidChart286_classDiagram-compositionEnd)"></path>
+            </g>
+            <g class="edgeLabels"
+               style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                <g class="edgeLabel"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <g class="label" transform="translate(0, 0)"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="edgeLabel"
+                                      style="background-color: rgb(236, 236, 255); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <g class="label" transform="translate(0, 0)"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="edgeLabel"
+                                      style="background-color: rgb(236, 236, 255); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <g class="label" transform="translate(0, 0)"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="edgeLabel"
+                                      style="background-color: rgb(236, 236, 255); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <g class="label" transform="translate(0, 0)"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="edgeLabel"
+                                      style="background-color: rgb(236, 236, 255); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <g class="label" transform="translate(0, 0)"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="edgeLabel"
+                                      style="background-color: rgb(236, 236, 255); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <g class="label" transform="translate(0, 0)"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="edgeLabel"
+                                      style="background-color: rgb(236, 236, 255); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <g class="label" transform="translate(0, 0)"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="edgeLabel"
+                                      style="background-color: rgb(236, 236, 255); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <g class="label" transform="translate(0, 0)"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="edgeLabel"
+                                      style="background-color: rgb(236, 236, 255); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <g class="label" transform="translate(0, 0)"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="edgeLabel"
+                                      style="background-color: rgb(236, 236, 255); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <g class="label" transform="translate(0, 0)"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="edgeLabel"
+                                      style="background-color: rgb(236, 236, 255); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+            </g>
+            <g class="nodes"
+               style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                <g class="node default" id="classId-EmailTemplate-1990" transform="translate(468.50390625, 543.5)"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <rect class="outer title-state" x="-77.53125" y="-61" width="155.0625" height="122"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(236, 236, 255); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></rect>
+                    <line class="divider" x1="-77.53125" x2="77.53125" y1="5" y2="5"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></line>
+                    <line class="divider" x1="-77.53125" x2="77.53125" y1="21" y2="21"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></line>
+                    <g class="label"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="74.71875" height="25" transform="translate( -37.359375, -53.5)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    «abstract»
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject class="classTitle" width="111.75" height="25"
+                                       transform="translate( -55.875, -24.5)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    EmailTemplate
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="140.0625" height="25" transform="translate( -70.03125, 28.5)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div style="font-style: italic; display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"
+                                 xmlns="http://www.w3.org/1999/xhtml">
+                                <span class="nodeLabel"
+                                      style="font-style: italic; background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    +Template() : String
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="node default" id="classId-VipEmail-1991" transform="translate(695.79296875, 255.5)"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <rect class="outer title-state" x="-77.53125" y="-46.5" width="155.0625" height="93"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(236, 236, 255); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></rect>
+                    <line class="divider" x1="-77.53125" x2="77.53125" y1="-9.5" y2="-9.5"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></line>
+                    <line class="divider" x1="-77.53125" x2="77.53125" y1="6.5" y2="6.5"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></line>
+                    <g class="label"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject class="classTitle" width="67.296875" height="25"
+                                       transform="translate( -33.6484375, -39)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    VipEmail
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="140.0625" height="25" transform="translate( -70.03125, 14)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    +Template() : String
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="node default" id="classId-BusinessEmail-1992" transform="translate(201.21484375, 255.5)"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <rect class="outer title-state" x="-77.53125" y="-46.5" width="155.0625" height="93"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(236, 236, 255); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></rect>
+                    <line class="divider" x1="-77.53125" x2="77.53125" y1="-9.5" y2="-9.5"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></line>
+                    <line class="divider" x1="-77.53125" x2="77.53125" y1="6.5" y2="6.5"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></line>
+                    <g class="label"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject class="classTitle" width="113.828125" height="25"
+                                       transform="translate( -56.9140625, -39)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    BusinessEmail
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="140.0625" height="25" transform="translate( -70.03125, 14)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    +Template() : String
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="node default" id="classId-Information-1993" transform="translate(99.75, 543.5)"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <rect class="outer title-state" x="-91.75" y="-133.5" width="183.5" height="267"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(236, 236, 255); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></rect>
+                    <line class="divider" x1="-91.75" x2="91.75" y1="-96.5" y2="-96.5"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></line>
+                    <line class="divider" x1="-91.75" x2="91.75" y1="6.5" y2="6.5"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></line>
+                    <g class="label"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject class="classTitle" width="88" height="25" transform="translate( -44, -126)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    Information
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="67.59375" height="25" transform="translate( -84.25, -85)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    #id:String
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="120.0625" height="25" transform="translate( -84.25, -56)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    #lastname:String
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="120.9375" height="25" transform="translate( -84.25, -27)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    #firstname:String
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="100.046875" height="25" transform="translate( -84.25, 14)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    +Information()
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="110.71875" height="25" transform="translate( -84.25, 43)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    +getId() : String
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="167.640625" height="25" transform="translate( -84.25, 72)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    +getLastname() : String
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="168.5" height="25" transform="translate( -84.25, 101)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    +getFirstname() : String
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="node default" id="classId-Customer-1994" transform="translate(448.50390625, 255.5)"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <rect class="outer title-state" x="-119.7578125" y="-104.5" width="239.515625" height="209"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(236, 236, 255); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></rect>
+                    <line class="divider" x1="-119.7578125" x2="119.7578125" y1="-38.5" y2="-38.5"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></line>
+                    <line class="divider" x1="-119.7578125" x2="119.7578125" y1="35.5" y2="35.5"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></line>
+                    <g class="label"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="74.71875" height="25" transform="translate( -37.359375, -97)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    «abstract»
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject class="classTitle" width="74.6875" height="25"
+                                       transform="translate( -37.34375, -68)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    Customer
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="221.4375" height="25" transform="translate( -112.2578125, -27)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    #emailTemplate:EmailTemplate
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="172.53125" height="25" transform="translate( -112.2578125, 2)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    #information:Information
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="202.3125" height="25" transform="translate( -112.2578125, 43)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    +getEmailTemplate() : String
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="224.515625" height="25" transform="translate( -112.2578125, 72)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    +switchEmailTemplate() : String
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="node default" id="classId-Business-1995" transform="translate(167.83984375, 54.5)"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <rect class="outer title-state" x="-49.9609375" y="-46.5" width="99.921875" height="93"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(236, 236, 255); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></rect>
+                    <line class="divider" x1="-49.9609375" x2="49.9609375" y1="-9.5" y2="-9.5"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></line>
+                    <line class="divider" x1="-49.9609375" x2="49.9609375" y1="6.5" y2="6.5"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></line>
+                    <g class="label"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject class="classTitle" width="71.140625" height="25"
+                                       transform="translate( -35.5703125, -39)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    Business
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="84.921875" height="25" transform="translate( -42.4609375, 14)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    +Business()
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="node default" id="classId-Vip-1996" transform="translate(528.7734375, 54.5)"
+                   style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                    <rect class="outer title-state" x="-28.921875" y="-46.5" width="57.84375" height="93"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(236, 236, 255); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></rect>
+                    <line class="divider" x1="-28.921875" x2="28.921875" y1="-9.5" y2="-9.5"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></line>
+                    <line class="divider" x1="-28.921875" x2="28.921875" y1="6.5" y2="6.5"
+                          style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: rgb(147, 112, 219); stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></line>
+                    <g class="label"
+                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                        <foreignObject width="0" height="0"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;"></span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject class="classTitle" width="24.609375" height="25"
+                                       transform="translate( -12.3046875, -39)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    Vip
+                                </span>
+                            </div>
+                        </foreignObject>
+                        <foreignObject width="42.84375" height="25" transform="translate( -21.421875, 14)"
+                                       style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap; background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                <span class="nodeLabel"
+                                      style="background-color: rgba(0, 0, 0, 0); color: rgb(19, 19, 0); fill: rgb(51, 51, 51); stroke: none; stroke-width: 1px; opacity: 1; stroke-dasharray: none; font-size: 16px; font-family: sans-serif; text-anchor: start; padding: 0px; margin: 0px;">
+                                    +Vip()
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
