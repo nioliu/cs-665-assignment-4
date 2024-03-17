@@ -5,9 +5,9 @@
 | CS-665       | Software Design & Patterns |
 |--------------|----------------------------|
 | Name         | Yulong Liu                 |
-| Date         | 03/06/2024                 |
+| Date         | 03/16/2024                 |
 | Course       | Spring                     |
-| Assignment # | 3                          |
+| Assignment # | 4                          |
 
 # Assignment Overview
 
@@ -76,20 +76,16 @@ CustomerData_HTTPSImpl --|> CustomerData_HTTPS
 ## How to use?
 
 ```java
- public void TestBasic() {
-    DeliveryRequest deliveryRequest1 = new DeliveryRequest("1"); // subject
-    Retailer1 retailer1 = new Retailer1(deliveryRequest1);
-    Driver taxiDriver1 = new TaxiDriver("123");// observer
-    Driver taxiDriver2 = new TaxiDriver("456");// observer
-    Driver taxiDriver3 = new TaxiDriver("789");// observer
-    Driver taxiDriver4 = new TaxiDriver("111");// observer
-    Driver taxiDriver5 = new TaxiDriver("222");// observer
-    Driver taxiDriver6 = new TaxiDriver("333");// observer
+public void testBasic() {
+    CustomerData_HTTPSImpl customerDataHttps = new CustomerData_HTTPSImpl();
+    customerDataHttps.getCustomer_HTTPS(111);
+    customerDataHttps.printCustomer(222);
 
-    deliveryRequest1.registerObserver(taxiDriver1, taxiDriver2, taxiDriver3, taxiDriver4, taxiDriver5, taxiDriver6);
-
-    retailer1.notify(new Delivery.
-            AdditionalDeliveryDetail("keyboard", "999, Boston, MA", 19.99));
+    CustomerData_USBImpl customerDataUsb = new CustomerData_USBImpl();
+    // use adapter to make usb system compatible with the new http system
+    CustomerData_HTTPS customerDataAdapter = new CustomerDataAdapter(customerDataUsb);
+    customerDataAdapter.getCustomer_HTTPS(1233);
+    customerDataAdapter.printCustomer(1233);
 }
 ```
 
