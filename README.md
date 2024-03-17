@@ -11,28 +11,25 @@
 
 # Assignment Overview
 
-This assignment involves the development of an "Email Generation" application designed to automatically generate
-customized emails for various customer segments of a company, such as Business, Returning, Frequent, New, and VIP
-customers. The system will use a base template for emails, which will be tailored according to the specific
-characteristics of each customer type.
+Develop a software system that facilitates the integration of the old system's interface with the new system's
+interface, which are USB interface and Https interface.
 
 # GitHub Repository Link:
 
-https://github.com/nioliu/cs-665-assignment-3
+https://github.com/nioliu/cs-665-assignment-4
 
 # Implementation Description
 
-1. Factory Method Pattern: Enables easy addition or removal of customer types. To introduce a new customer segment, you
-   simply add a new class and adjust the factory method to recognize and instantiate it, without altering existing code.
+- **Adapter Pattern**: Use adapter mode to integrate legacy USB systems with new HTTPS systems without modifying
+  existing interfaces. This pattern enhances flexibility because if a new system comes in the future, a new adapter can
+  be created to convert between the common interface and the new system without changing the existing client code or the
+  system itself.
 
-2. Strategy Pattern: The Customer class acts as the context, capable of switching its EmailTemplate strategy at runtime
-   via the switchEmailTemplate() method. Each customer type upon creation sets its default EmailTemplate, such as
-   BusinessEmail for Business customers, allowing for a flexible and interchangeable email generation process.
-   Constructor Injection: In the constructors of the specific customer subclasses, the default email template is set,
-   ensuring that each type of customer starts with the appropriate email content strategy.
+- **Common Interface Use**: Implementing a common interface for adapters enables reuse of the adapter with different
+  systems following the same interface, thus avoiding code duplication.
 
-3. Template Method Pattern: Provides a standard structure for email templates, allowing new email types to be created by
-   extending the base class and implementing the required steps, thereby promoting reuse and simplification.
+- The adapter solution maintains a balance between flexibility, simplicity, and avoidance of duplicated code
+  while facilitating future expansions or modifications. It is easy to understand, maintain.
 
 ## UML
 
@@ -40,55 +37,40 @@ https://github.com/nioliu/cs-665-assignment-3
 
 classDiagram
 
-class EmailTemplate{
- <<abstract>>
- +Template() String*
+class CustomerData_HTTPS{
+ <<interface>>
+ ~printCustomer(int customerId)
+ ~getCustomer_HTTPS(int customerId)
 }
 
-class VipEmail{
-   +Template() String
+class CustomerData_USB{
+ <<interface>>
+ ~printCustomer(int customerId)
+ ~getCustomer_USB(int customerId)
 }
 
-class BusinessEmail{
-	+Template() String
+class CustomerData_HTTPSImpl{
+ ~printCustomer(int customerId)
+ ~getCustomer_HTTPS(int customerId)
 }
 
-class Information{
-	#id:String
-	#lastname:String
-	#firstname:String  
-	+Information()
-	+getId()String
-	+getLastname()String
-	+getFirstname()String  
+class CustomerData_USBImpl{
+ ~printCustomer (int customerId)
+ ~getCustomer_USB (int customerId)
 }
 
-class Customer{
-	<<abstract>>
-    #emailTemplate:EmailTemplate
-    #information:Information
-    +getEmailTemplate()String
-    +switchEmailTemplate()String
+class CustomerDataAdapter{
+-CustomerData_USB:usbSystem
++CustomerDataAdapter(CustomerData_USB usbSystem)
++printCustomer(int customerId)
++getCustomer_HTTPS(int customerId)
 }
 
-class Business{
-    +Business()
-}
+CustomerDataAdapter --|> CustomerData_HTTPS
+CustomerDataAdapter ..> CustomerData_USB
+CustomerData_USBImpl --|> CustomerData_USB
+CustomerData_HTTPSImpl --|> CustomerData_HTTPS
 
-class Vip{
-    +Vip()
-}
-
-Business..>Information
-Business--*BusinessEmail
-Vip..>Information
-Vip..*VipEmail
-BusinessEmail--|>EmailTemplate
-VipEmail--|>EmailTemplate
-Business--|>Customer
-Vip--|>Customer
-Customer--*EmailTemplate
-Customer--*Information
 ```
 
 ## How to use?
